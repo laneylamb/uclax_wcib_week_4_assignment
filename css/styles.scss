@@ -1,11 +1,17 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+html {
+scroll-behavior: smooth;
+}
 
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  background-image: url(../images/coffeebeans.jpg);
+  height: 100%;
+  background-size: contain;
 }
 
 
@@ -102,7 +108,7 @@ body {
 
 .btn-secondary {
     color: #fff;
-    background-color: #0062cc;
+    background-color: #27a744;
     border-color: #ffffff;
 }
 
@@ -113,5 +119,11 @@ body {
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #212529;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
 }
