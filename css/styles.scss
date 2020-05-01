@@ -14,6 +14,9 @@ body {
   background-size: contain;
 }
 
+image {
+  width: 100%; }
+  
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -39,7 +42,6 @@ body {
   min-width: 100%;
   height: 32rem;
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -126,4 +128,8 @@ a {
     color: #ffffff;
     text-decoration: none;
     background-color: transparent;
+}
+
+h2 {
+  padding-top: 50px;
 }

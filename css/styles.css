@@ -12,6 +12,9 @@ body {
   height: 100%;
   background-size: contain; }
 
+image {
+  width: 100%; }
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
@@ -101,3 +104,6 @@ a {
   color: #ffffff;
   text-decoration: none;
   background-color: transparent; }
+
+h2 {
+  padding-top: 50px; }
