@@ -16,7 +16,9 @@ body {
 
 image {
   width: 100%; }
-  
+
+.bd-placeholder-img.bd-placeholder-img-lg.featurette-image.img-fluid.mx-auto {
+    border-radius: 15px; }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -132,4 +134,9 @@ a {
 
 h2 {
   padding-top: 50px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
 }
