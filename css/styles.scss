@@ -31,7 +31,9 @@ h3 {
   padding-bottom: 70px;
 }
 
-image {
+img {
+  object-fit: cover;
+  object-position: top;
   width: 100%; }
 
 .img-fluid {
@@ -41,6 +43,11 @@ image {
 
 .bd-placeholder-img.bd-placeholder-img-lg.featurette-image.img-fluid.mx-auto {
     border-radius: 20px; }
+
+.bd-placeholder-img.rounded-circle {
+  height: 250px;
+  width: 250px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
